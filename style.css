@@ -5,10 +5,60 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.logo {
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+
+.header-text button {
+    background-color:#3882F6;
+    border:#3882F6 5px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    padding:5px;
+    color:#F9FAF8;
+}
+.header-text-head {
+    color:#F9FAF8;
+    font-size:48px;
+    font-weight: bold;
+}
+.header {
+    padding-top:20px;
+    padding-left:250px;
+    padding-right:250px;
+    background-color:#1F2937
+}
 .header-top {
     display:flex;
     justify-content: space-between;
+    padding-bottom:75px;
 
+}
+.header-subtext {
+    color:#F9FAF8;
+
+}
+.header-info {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:75px;
+    gap:40px;
+}
+
+.links ul {
+    list-style-type: none;
+    display:flex;
+    gap:20px;
+}
+
+.links ul a {
+    color:#E5E7EB;
+    text-decoration: none;
+    font-size:18px;
 }
 .image img {
     border: #3882F6 5px solid;
