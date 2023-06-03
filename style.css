@@ -6,6 +6,35 @@ body {
     justify-content: space-between;
 }
 
+.text-header {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.text-action {
+    color:#F9FAF8;
+}
+.action {
+    padding:100px;
+}
+.action-info {
+    display: flex;
+    align-items: center;
+    background-color:#3882F6;
+    padding:20px;
+    justify-content: center;
+    border-radius: 10px;
+    gap:40px;
+
+}
+.action-button button {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    font-weight: bold;
+    border: #F9FAF8 2px solid;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 5px;
+}
 .footer {
     background-color: #1F2937;
     display: flex;
